@@ -4,9 +4,26 @@
   margin: 0;
   padding: 0;
 }
+@font-face {
+  font-family: face;
+  font-weight: normal;
+  font-style: normal;
+  src: url("./assets/fonts/Peepo.ttf") format("truetype");
+}
 .pixel__font {
-  font-family: "Inter", sans-serif;
+  font-family: "Peepo";
 }
 .normal__font {
   font-family: "Inter", sans-serif;
+}
+.display__flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.display__spacebetween {
+  justify-content: space-between;
+}
+.flex__flow__down {
+  flex-direction: column;
 }
