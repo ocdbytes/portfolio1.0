@@ -1,0 +1,31 @@
+.dir__main {
+  position: fixed;
+  top: 2.5%;
+  right: 2.5%;
+  color: #fff;
+}
+.dir__main h2 {
+  font-size: 15px;
+}
+.dir__box {
+  padding: 15px;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  margin-top: 10px;
+}
+.dir__tags {
+  cursor: pointer;
+}
+.dir__tags::before {
+  content: ">";
+  margin-right: 5px;
+  visibility: hidden;
+}
+.dir__tags:hover::before {
+  visibility: visible;
+}
+@media screen and (max-width: 425px) {
+  .dir__main {
+    display: none;
+  }
+}

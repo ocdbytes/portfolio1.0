@@ -1,0 +1,12 @@
+.status__main {
+  position: fixed;
+  bottom: 2.5%;
+  left: 2.5%;
+  color: #fff;
+}
+.status__font {
+  font-size: 15px;
+}
+.not__display {
+  display: none;
+}

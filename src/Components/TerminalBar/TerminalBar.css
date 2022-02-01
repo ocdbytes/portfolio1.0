@@ -1,0 +1,41 @@
+.terminal__bar {
+  color: #fff;
+}
+.terminal__bar > p {
+  font-size: 12px;
+}
+.terminal__box {
+  border: 1px solid #fff;
+  color: #fff;
+}
+.terminal__input {
+  padding: 10px 5px;
+  width: 250px;
+  height: 100%;
+  font-size: 15px;
+
+  border: none;
+  background: none;
+  color: #fff;
+}
+.terminal__input:focus {
+  outline: none;
+}
+.terminal__box p {
+  padding: 10px;
+  font-size: 15px;
+}
+.terminal__button {
+  background: #fff;
+  border: none;
+  padding: 15px;
+  height: 100%;
+  width: 100px;
+  font-size: 15px;
+  cursor: pointer;
+}
+@media screen and (max-width: 425px) {
+  .terminal__bar {
+    display: none;
+  }
+}

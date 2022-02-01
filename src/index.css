@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Flow+Circular&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -15,6 +15,15 @@
 }
 .normal__font {
   font-family: "Inter", sans-serif;
+}
+.flow__text {
+  font-family: "Flow Circular", cursive;
+}
+.color__hp {
+  color: #fd367e;
+}
+.color__nb {
+  color: #00fff5;
 }
 .display__flex {
   display: flex;

@@ -1,0 +1,157 @@
+.center__picture__main {
+  width: 100%;
+  max-width: 650px;
+  min-width: 650px;
+  min-height: 400px;
+  height: 100%;
+  position: relative;
+  margin-bottom: 10%;
+}
+.monitor1,
+.monitor2 {
+  width: 60%;
+  height: 55%;
+  position: absolute;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+.monitor1 {
+  top: 0;
+  left: 0;
+}
+.monitor2 {
+  top: 15%;
+  right: 0;
+}
+.keyboard {
+  position: absolute;
+  width: 35%;
+  height: 15%;
+  bottom: 0;
+  left: calc(40% - 15%);
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+.coffee {
+  border: 1px solid #fff;
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  bottom: 10%;
+  right: 20%;
+}
+.monitor1_window1 {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 45%;
+  padding: 2%;
+  height: 50%;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  transition: all 0.5s ease-in;
+  overflow: scroll;
+}
+.monitor2_window1 {
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  width: 45%;
+  height: 50%;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 2%;
+  overflow: scroll;
+}
+.monitor2_window2 {
+  position: absolute;
+  bottom: 35%;
+  right: 5%;
+  width: 30%;
+  height: 50%;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+.monitor1_window1::-webkit-scrollbar,
+.monitor2_window1::-webkit-scrollbar {
+  display: none;
+}
+.window__text,
+.window__text2 {
+  max-width: 100%;
+  font-size: 5px;
+  color: #222831;
+  transition: all 0.5s ease-in;
+}
+.window__text2 {
+  visibility: hidden;
+}
+.monitor1:hover,
+.monitor2:hover {
+  animation: borderframes 5s infinite;
+}
+.monitor1:hover .window__text {
+  color: #fff;
+}
+.monitor2:hover .window__text2 {
+  color: #fff;
+  visibility: visible;
+}
+@keyframes borderframes {
+  0% {
+    border: 1px solid #fff;
+    box-shadow: 0px 0px 10px #fff;
+  }
+  25% {
+    border: 1px solid #fd367e;
+    box-shadow: 0px 0px 10px #fd367e;
+  }
+  50% {
+    border: 1px solid #00fff5;
+    box-shadow: 0px 0px 10px #00fff5;
+  }
+  75% {
+    border: 1px solid #fd367e;
+    box-shadow: 0px 0px 10px #fd367e;
+  }
+  100% {
+    border: 1px solid #fff;
+    box-shadow: 0px 0px 10px #fff;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .center__picture__main {
+    max-width: 650px;
+    min-width: 550px;
+    min-height: 350px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .center__picture__main {
+    max-width: 650px;
+    min-width: 350px;
+    min-height: 250px;
+  }
+  .coffee {
+    width: 30px;
+    height: 30px;
+  }
+  .monitor1,
+  .monitor2,
+  .monitor1_window1,
+  .monitor2_window1,
+  .monitor2_window2 {
+    border-radius: 5px;
+  }
+  .keyboard {
+    border-radius: 5px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .center__picture__main {
+    max-width: 650px;
+    min-width: 250px;
+    min-height: 150px;
+  }
+}

@@ -25,13 +25,13 @@ const Navbar = () => {
             <span class="hamburger-inner"></span>
           </span>
         </button>
-        <SideNavbar showNav={showNav} />
+        <SideNavbar showNav={showNav} setNav={setNav} />
       </div>
     </div>
   );
 };
 
-const SideNavbar = ({ showNav }) => {
+const SideNavbar = ({ showNav, setNav }) => {
   return (
     <div
       className={
@@ -40,6 +40,19 @@ const SideNavbar = ({ showNav }) => {
           : "side__navbar__main pixel__font display__flex flex__flow__down"
       }
     >
+      <button
+        class={
+          showNav
+            ? "hamburger hamburger--emphatic is-active position__align"
+            : "hamburger hamburger--emphatic position__align"
+        }
+        type="button"
+        onClick={() => setNav(!showNav)}
+      >
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
       <Link
         to="/"
         className="side__navbar__link"
