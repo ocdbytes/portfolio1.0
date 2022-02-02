@@ -5,10 +5,13 @@
   padding: 0;
 }
 @font-face {
-  font-family: face;
+  font-family: "Peepo";
   font-weight: normal;
   font-style: normal;
   src: url("./assets/fonts/Peepo.ttf") format("truetype");
+  src: url("./assets/fonts/Peepo.eot");
+  src: url("./assets/fonts/Peepo.woff") format("woff"),
+    url("./assets/fonts/Peepo.svg") format("svg");
 }
 .pixel__font {
   font-family: "Peepo";

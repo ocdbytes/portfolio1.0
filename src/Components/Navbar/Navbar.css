@@ -1,8 +1,8 @@
 .navbar__main {
   width: 96%;
   padding: 0 2%;
-  max-height: 10vh;
-  min-height: 10vh;
+  max-height: 12vh;
+  min-height: 12vh;
   background: #222831;
 }
 #logo {

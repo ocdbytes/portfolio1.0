@@ -1,5 +1,6 @@
 .terminal__bar {
   color: #fff;
+  max-width: 380px;
 }
 .terminal__bar > p {
   font-size: 12px;
@@ -13,7 +14,6 @@
   width: 250px;
   height: 100%;
   font-size: 15px;
-
   border: none;
   background: none;
   color: #fff;

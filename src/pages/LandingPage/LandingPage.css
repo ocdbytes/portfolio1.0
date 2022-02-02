@@ -1,5 +1,25 @@
 .landing__main {
   background: #222831;
-  min-height: 90vh;
-  max-height: 90vh;
+  min-height: 88vh;
+  max-height: 88vh;
+}
+.page__headers {
+  width: 95%;
+  padding: 2.5%;
+}
+.page__contents {
+  width: 95%;
+  padding: 2.5%;
+}
+.content__font {
+  width: 100%;
+  max-width: 700px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  color: #fff;
+}
+.images {
+  width: 30px;
+  height: 30px;
+  background: #fff;
 }

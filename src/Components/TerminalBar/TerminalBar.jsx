@@ -25,7 +25,7 @@ const TerminalBar = () => {
           Run&gt;_
         </button>
       </div>
-      <p>choose any folder from directory</p>
+      <p>choose any folder from directory or use "../" for navigating back</p>
     </div>
   );
 };

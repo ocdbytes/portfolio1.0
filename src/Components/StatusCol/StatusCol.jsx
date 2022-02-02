@@ -30,7 +30,7 @@ const StatusCol = () => {
     // eslint-disable-next-line
     var typed1 = new Typed("#hello__world__text", {
       strings: ["> Hello World"],
-      typeSpeed: 100,
+      typeSpeed: 50,
       backSpeed: 0,
       loop: false,
       showCursor: false,
@@ -39,11 +39,11 @@ const StatusCol = () => {
     // eslint-disable-next-line
     var typed2 = new Typed("#run__exploit__text", {
       strings: ["> .RUN exploit101.py -U user"],
-      typeSpeed: 100,
+      typeSpeed: 50,
       backSpeed: 0,
       loop: false,
       showCursor: false,
-      startDelay: 2000,
+      startDelay: 1500,
     });
     // eslint-disable-next-line
     var typed3 = new Typed("#initialisation__text", {
@@ -56,24 +56,24 @@ const StatusCol = () => {
         "> Initializing Sequence....\\",
         "> Sequence Initialised (OK)",
       ],
-      typeSpeed: 50,
+      typeSpeed: 0,
       backSpeed: 0,
       loop: false,
       showCursor: false,
-      startDelay: 6000,
+      startDelay: 4000,
     });
     // eslint-disable-next-line
     var typed4 = new Typed("#running__text", {
       strings: ["> Running...."],
-      typeSpeed: 100,
+      typeSpeed: 50,
       backSpeed: 0,
       loop: false,
       showCursor: false,
-      startDelay: 15500,
+      startDelay: 7500,
     });
     setTimeout(() => {
       setStats(true);
-    }, 17500);
+    }, 8000);
   };
 
   useEffect(() => {

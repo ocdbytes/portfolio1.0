@@ -1,0 +1,42 @@
+.about__main {
+  background: #222831;
+  min-height: 88vh;
+  /* max-height: 88vh; */
+}
+.page__header {
+  margin-bottom: 10px;
+}
+.about__header {
+  color: #fff;
+}
+.about__cards {
+  width: 100%;
+  max-width: 700px;
+  color: #fff;
+}
+.card__about {
+  margin-top: 5%;
+}
+.card__images {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 3% 0;
+  flex-wrap: wrap;
+}
+.skills__icon {
+  margin: 10px;
+  height: 28px;
+}
+.card__tile {
+  width: 100%;
+}
+.card__content {
+  font-family: "Inter", sans-serif;
+}
+@media screen and (max-width: 425px) {
+  .skills__icon {
+    margin: 10px;
+    height: 25px;
+  }
+}

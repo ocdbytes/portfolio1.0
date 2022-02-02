@@ -9,11 +9,13 @@ const Navbar = () => {
   return (
     <div className="navbar__main display__flex display__spacebetween">
       <div className="navbar__left">
-        <img src={Logo} alt="logo" id="logo"></img>
+        <Link to={"/"}>
+          <img src={Logo} alt="logo" id="logo"></img>
+        </Link>
       </div>
       <div className="navbar__right">
         <button
-          class={
+          className={
             showNav
               ? "hamburger hamburger--emphatic is-active"
               : "hamburger hamburger--emphatic"
@@ -21,8 +23,8 @@ const Navbar = () => {
           type="button"
           onClick={() => setNav(!showNav)}
         >
-          <span class="hamburger-box">
-            <span class="hamburger-inner"></span>
+          <span className="hamburger-box">
+            <span className="hamburger-inner"></span>
           </span>
         </button>
         <SideNavbar showNav={showNav} setNav={setNav} />
@@ -41,7 +43,7 @@ const SideNavbar = ({ showNav, setNav }) => {
       }
     >
       <button
-        class={
+        className={
           showNav
             ? "hamburger hamburger--emphatic is-active position__align"
             : "hamburger hamburger--emphatic position__align"
@@ -49,14 +51,15 @@ const SideNavbar = ({ showNav, setNav }) => {
         type="button"
         onClick={() => setNav(!showNav)}
       >
-        <span class="hamburger-box">
-          <span class="hamburger-inner"></span>
+        <span className="hamburger-box">
+          <span className="hamburger-inner"></span>
         </span>
       </button>
       <Link
-        to="/"
+        to="/about"
         className="side__navbar__link"
         style={{ textDecoration: "none" }}
+        onClick={() => setNav(false)}
       >
         About
       </Link>

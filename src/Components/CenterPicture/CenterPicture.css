@@ -77,6 +77,13 @@
 .monitor2_window1::-webkit-scrollbar {
   display: none;
 }
+.kali__logo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.5s ease-in;
+  animation: kalilogoanim 5s infinite;
+}
 .window__text,
 .window__text2 {
   max-width: 100%;
@@ -97,6 +104,9 @@
 .monitor2:hover .window__text2 {
   color: #fff;
   visibility: visible;
+}
+.monitor2:hover .kali__logo {
+  fill: #fff;
 }
 @keyframes borderframes {
   0% {
@@ -153,5 +163,22 @@
     max-width: 650px;
     min-width: 250px;
     min-height: 150px;
+  }
+}
+@keyframes kalilogoanim {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  75% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
   }
 }
