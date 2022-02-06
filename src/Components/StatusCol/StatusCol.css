@@ -10,3 +10,8 @@
 .not__display {
   display: none;
 }
+@media screen and (max-width: 425px) {
+  .status__font {
+    font-size: 8px;
+  }
+}

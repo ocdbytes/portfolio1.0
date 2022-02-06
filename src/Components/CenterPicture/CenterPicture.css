@@ -82,7 +82,7 @@
   height: 100%;
   object-fit: cover;
   transition: all 0.5s ease-in;
-  animation: kalilogoanim 5s infinite;
+  animation: kalilogoanim 5s infinite linear;
 }
 .window__text,
 .window__text2 {
@@ -96,10 +96,10 @@
 }
 .monitor1:hover,
 .monitor2:hover {
-  animation: borderframes 5s infinite;
+  animation: borderframes 5s infinite linear;
 }
 .monitor1:hover .window__text {
-  color: #fff;
+  color: rgb(136, 136, 136);
 }
 .monitor2:hover .window__text2 {
   color: #fff;

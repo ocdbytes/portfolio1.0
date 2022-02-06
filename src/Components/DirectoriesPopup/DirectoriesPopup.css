@@ -3,6 +3,7 @@
   top: 2.5%;
   right: 2.5%;
   color: #fff;
+  transition: all 0.3s ease;
 }
 .dir__main h2 {
   font-size: 15px;
@@ -23,6 +24,9 @@
 }
 .dir__tags:hover::before {
   visibility: visible;
+}
+.translated_x {
+  transform: translateX(150%);
 }
 @media screen and (max-width: 425px) {
   .dir__main {

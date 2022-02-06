@@ -64,28 +64,29 @@ const SideNavbar = ({ showNav, setNav }) => {
         About
       </Link>
       <Link
-        to="/"
+        to="/projects"
         className="side__navbar__link"
         style={{ textDecoration: "none" }}
       >
         Projects
       </Link>
       <Link
-        to="/"
+        to="/experience"
         className="side__navbar__link"
         style={{ textDecoration: "none" }}
+        onClick={() => setNav(false)}
       >
         Experience
       </Link>
       <Link
-        to="/"
+        to="/blogs"
         className="side__navbar__link"
         style={{ textDecoration: "none" }}
       >
         Blogs
       </Link>
       <Link
-        to="/"
+        to="/achievments"
         className="side__navbar__link"
         style={{ textDecoration: "none" }}
       >

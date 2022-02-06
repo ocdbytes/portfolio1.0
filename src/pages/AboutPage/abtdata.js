@@ -72,3 +72,5 @@ export default abtdata
 // illustrator = https://drive.google.com/uc?export=view&id=1Onyg6qwnC20u_WITB7H8JCFikD6Vis8t
 // redux = https://drive.google.com/uc?export=view&id=1D7IIqJGT1GWJAobjFpYIGpq-tbDM-6os
 // heroku = https://drive.google.com/uc?export=view&id=1UHLW7vCZPXHfxkcBPAzPosSTwd7c4mol
+// dsc = https://drive.google.com/uc?export=view&id=14ghH2_R8Oimt34ivB-pZcSYQXlJAB9d3
+// ccsc = https://drive.google.com/uc?export=view&id=134JhlGtwGwtY8DENfVbqq6a5BgWqfUe_
