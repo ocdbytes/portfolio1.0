@@ -1,0 +1,23 @@
+.achievements__main {
+  background: #222831;
+  min-height: 88vh;
+  height: auto;
+}
+.achievements__content {
+  display: grid;
+  width: 95%;
+  grid-template-columns: repeat(3, 0fr);
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+@media screen and (max-width: 1000px) {
+  .achievements__content {
+    grid-template-columns: repeat(2, 0fr);
+  }
+}
+@media screen and (max-width: 670px) {
+  .achievements__content {
+    grid-template-columns: repeat(1, 0fr);
+  }
+}

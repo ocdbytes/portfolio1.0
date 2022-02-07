@@ -67,6 +67,7 @@ const SideNavbar = ({ showNav, setNav }) => {
         to="/projects"
         className="side__navbar__link"
         style={{ textDecoration: "none" }}
+        onClick={() => setNav(!showNav)}
       >
         Projects
       </Link>
@@ -82,13 +83,15 @@ const SideNavbar = ({ showNav, setNav }) => {
         to="/blogs"
         className="side__navbar__link"
         style={{ textDecoration: "none" }}
+        onClick={() => setNav(!showNav)}
       >
         Blogs
       </Link>
       <Link
-        to="/achievments"
+        to="/achievements"
         className="side__navbar__link"
         style={{ textDecoration: "none" }}
+        onClick={() => setNav(!showNav)}
       >
         Achievments
       </Link>

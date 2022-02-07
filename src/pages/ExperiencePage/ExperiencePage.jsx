@@ -18,7 +18,7 @@ const ExperiencePage = () => {
           <div className="experience__card__main normal__font display__flex">
             <img
               className="org__logo"
-              src="https://drive.google.com/uc?export=view&id=14ghH2_R8Oimt34ivB-pZcSYQXlJAB9d3"
+              src="https://drive.google.com/uc?id=14ghH2_R8Oimt34ivB-pZcSYQXlJAB9d3"
               alt="org__logo"
             ></img>
             <div className="experience__content">
@@ -35,7 +35,7 @@ const ExperiencePage = () => {
           <div className="experience__card__main normal__font display__flex">
             <img
               className="org__logo"
-              src="https://drive.google.com/uc?export=view&id=134JhlGtwGwtY8DENfVbqq6a5BgWqfUe_"
+              src="https://drive.google.com/uc?id=134JhlGtwGwtY8DENfVbqq6a5BgWqfUe_"
               alt="org__logo"
             ></img>
             <div className="experience__content">
