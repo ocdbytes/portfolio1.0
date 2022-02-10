@@ -3,6 +3,8 @@ import TerminalBar from "../../Components/TerminalBar/TerminalBar";
 import "./AboutPage.css";
 import abtdata from "./abtdata";
 import parse from "html-react-parser";
+import socials from "./socials";
+
 const AboutPage = () => {
   //   const parse = HTMLReactParser();
   return (
@@ -20,6 +22,15 @@ const AboutPage = () => {
           Science Engineering. I am also interested in Blockchain Development
           and Crypto Fundamentals.
         </p>
+        <div className="social__links">
+          {socials.map((soc) => {
+            return (
+              <a className="social" href={soc.link} key={soc.id}>
+                <img src={soc.icon} alt={soc.icon}></img>
+              </a>
+            );
+          })}
+        </div>
         <div className="about__cards">
           {abtdata.map((card) => {
             const { title, id, technologies, content } = card;
@@ -42,6 +53,18 @@ const AboutPage = () => {
               </div>
             );
           })}
+        </div>
+        <div className="languages__section pixel__font">
+          <h2>Languages</h2>
+          <br></br>
+          <ul>
+            <li>English</li>
+            <li>Hindi (हिंदी)</li>
+            <li>Punjabi (ਪੰਜਾਬੀ)</li>
+            <li>Spanish (español) - Conversational</li>
+            <li>Russian (русский) - Conversational</li>
+            <li>Arabic (العربية) - Conversational</li>
+          </ul>
         </div>
       </div>
     </div>

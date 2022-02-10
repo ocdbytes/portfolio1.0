@@ -40,3 +40,21 @@
     height: 25px;
   }
 }
+.languages__section {
+  margin-top: 25px;
+  color: #fff;
+}
+.languages__section ul {
+  list-style: none;
+}
+.social__links {
+  display: flex;
+  flex-wrap: wrap;
+}
+.social {
+  margin-right: 10px;
+  margin-top: 20px;
+}
+.social img {
+  width: 25px;
+}
