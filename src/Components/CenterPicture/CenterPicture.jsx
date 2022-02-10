@@ -1,30 +1,37 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Typed from "typed.js";
+
 import "./CenterPicture.css";
 const CenterPicture = () => {
+  const typingIntro = () => {
+    // eslint-disable-next-line
+    var typedIntro = new Typed("#intro", {
+      strings: ["  Hey!!👋 Myself Arun Jangra"],
+      typeSpeed: 100,
+      backSpeed: 0,
+      loop: false,
+      showCursor: false,
+      startDelay: 100,
+    });
+    // eslint-disable-next-line
+    var typedSubIntro = new Typed("#subintro", {
+      strings: ["Click on any of the directories to know more ->"],
+      typeSpeed: 50,
+      backSpeed: 0,
+      loop: false,
+      showCursor: false,
+      startDelay: 3500,
+    });
+  };
+  useEffect(() => {
+    typingIntro();
+  }, []);
   return (
     <div className="center__picture__main">
       <div className="monitor1">
-        <div className="monitor1_window1">
-          <p className="flow__text window__text">
-            cached modules 1.5 MiB (javascript) 24.2 KiB (asset) 28.2 KiB
-            (runtime) [cached] 142 modules
-            ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!.
-            /node_modules/postcss-loader/dist/cjs. js??ruleSet
-            [1].rules[1].oneOf[5].use[2]!./node_modules/source-
-            map-loader/dist/cjs.js!./src/Components/CenterPicture/CenterPicture.css
-            4.82 KiB [built] cached modules 1.5 MiB (javascript) 24.2 KiB
-            (asset) 28.2 KiB (runtime) [cached] 142 modules ./node_
-            /node_modules/postcss-loader/dist/cjs. js??ruleSet
-            [1].rules[1].oneOf[5].use[2]!./node_modules/source-
-            map-loader/dist/cjs.js!./src/Components/CenterPicture/CenterPicture.css
-            4.82 KiB [built] cached modules 1.5 MiB (javascript) 24.2 KiB
-            (asset) 28.2 KiB (runtime) [cached] 142 modules
-            ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!.
-            /node_modules/postcss-loader/dist/cjs. js??ruleSet
-            [1].rules[1].oneOf[5].use[2]!./node_modules/source-
-            map-loader/dist/cjs.js!./src/Components/CenterPicture/CenterPicture.css
-            4.82 KiB [built]
-          </p>
+        <div className="monitor1_window1 pixel__font">
+          <p className="window__text" id="intro"></p>
+          <p className="window__text" id="subintro"></p>
         </div>
       </div>
       <div className="monitor2">

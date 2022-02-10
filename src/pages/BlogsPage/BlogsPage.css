@@ -8,3 +8,37 @@
 .blogs__content {
   color: #fff;
 }
+.blogs__data__card {
+  width: 100%;
+  max-width: 600px;
+  border: 1px solid rgb(148, 148, 148);
+}
+.blogs__card__image__sec {
+  width: 40%;
+}
+.blogs__card__details {
+  width: 60%;
+  padding: 5%;
+}
+.blogs__card__details a {
+  color: #fff;
+  font-size: 13px;
+}
+.blogs__card__image__sec img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+@media screen and (max-width: 670px) {
+  .blogs__data__card {
+    flex-direction: column;
+    width: 80%;
+  }
+  .blogs__card__image__sec,
+  .blogs__card__details {
+    width: 100%;
+  }
+  .blogs__card__details a {
+    font-size: 10px;
+  }
+}

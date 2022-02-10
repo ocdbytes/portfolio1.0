@@ -4,6 +4,7 @@ import "./TerminalBar.css";
 
 const TerminalBar = () => {
   const [path, setPath] = useState("");
+  const [popup, setPopup] = useState(false);
   const history = useNavigate();
   const gotopath = () => {
     const paths = ["about", "experience", "projects", "blogs", "achievements"];
@@ -11,7 +12,10 @@ const TerminalBar = () => {
       history("/");
     } else {
       if (!paths.includes(path.toLocaleLowerCase())) {
-        console.log("wrong path"); // Add a popup here
+        setPopup(true);
+        setTimeout(() => {
+          setPopup(false);
+        }, 2000);
       } else {
         history(`/${path}`);
       }
@@ -49,7 +53,15 @@ const TerminalBar = () => {
           Run&gt;_
         </button>
       </div>
-      <p>choose any folder from directory or use "." for navigating to home</p>
+      <p>choose any directory or use "../" for navigating to home</p>
+      <div
+        className={
+          !popup ? "popup__wrong__cmd popup__translated" : "popup__wrong__cmd"
+        }
+      >
+        <p>Sorry! Wrong Command</p>
+        <p className="sub__text">Please write a valid directory to navigate</p>
+      </div>
     </div>
   );
 };

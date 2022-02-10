@@ -39,3 +39,21 @@
     display: none;
   }
 }
+.popup__wrong__cmd {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  padding: 20px;
+  background: #fff;
+  color: #222831;
+  transition: all 0.3s ease;
+}
+.popup__wrong__cmd p {
+  font-weight: 200;
+}
+.sub__text {
+  font-size: 10px;
+}
+.popup__translated {
+  transform: translateY(100%);
+}

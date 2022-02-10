@@ -23,3 +23,10 @@
   height: 30px;
   background: #fff;
 }
+@media screen and (max-width: 425px) {
+  .page__headers,
+  .page__contents {
+    width: 90%;
+    padding: 5%;
+  }
+}

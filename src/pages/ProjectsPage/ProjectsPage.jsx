@@ -27,13 +27,14 @@ const ProjectsPage = () => {
                 <h2 className="pixel__font project__head">{name}</h2>
                 <p className="project__disc">{description}</p>
                 <div className="project__tech">
-                  {tech.map((technology) => {
+                  {tech.map((technology, i) => {
                     return (
                       <img
                         src={technology}
                         alt="tech_used"
                         height={"20px"}
                         className="technology__logo"
+                        key={i + name}
                       ></img>
                     );
                   })}

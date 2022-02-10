@@ -15,7 +15,7 @@ const AchievementsPage = () => {
       </div>
       <div className="page__contents achievements__content">
         {achievementsdata.map((data) => {
-          return <CertCard data={data} />;
+          return <CertCard data={data} key={data.id} />;
         })}
       </div>
     </div>
