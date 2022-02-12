@@ -8,7 +8,6 @@ const pjtdata = [
             "https://drive.google.com/uc?id=1sdapnf4uPF0XttMuyXDnrRSSUzyH4xAm",
             "https://drive.google.com/uc?id=18gvcd-BIUZnXWoWTRRDa9g59potCxOR9",
             "https://drive.google.com/uc?id=1pSIIJjUdhkAJQ_40Q6pUCwlDdqr_vS3J",
-            ""
         ],
         icon: "https://drive.google.com/uc?id=1sdapnf4uPF0XttMuyXDnrRSSUzyH4xAm",
         github: "https://github.com/Arun89-crypto/Fund_Me_Brownie"
