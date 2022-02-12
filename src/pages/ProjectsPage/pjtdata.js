@@ -1,5 +1,19 @@
 const pjtdata = [
     {
+        id: "pjt_data_10",
+        name: "Fund Me - Solidity - Brownie deployment",
+        team: false,
+        description: "A contract written to recieve payments on my metamask account and tokens can only be withdrawn by the contract creator only.Contract deployable and tested in brownie env",
+        tech: [
+            "https://drive.google.com/uc?id=1sdapnf4uPF0XttMuyXDnrRSSUzyH4xAm",
+            "https://drive.google.com/uc?id=18gvcd-BIUZnXWoWTRRDa9g59potCxOR9",
+            "https://drive.google.com/uc?id=1pSIIJjUdhkAJQ_40Q6pUCwlDdqr_vS3J",
+            ""
+        ],
+        icon: "https://drive.google.com/uc?id=1sdapnf4uPF0XttMuyXDnrRSSUzyH4xAm",
+        github: "https://github.com/Arun89-crypto/Fund_Me_Brownie"
+    },
+    {
         id: "pjt_data_1",
         name: "Farmzo",
         team: true,
