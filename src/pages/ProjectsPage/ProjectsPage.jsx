@@ -62,6 +62,12 @@ const ProjectsPage = () => {
           );
         })}
       </div>
+      <img
+        title="🔥 Get streak stats for your profile at git.io/streak-stats"
+        alt="Arun Jangra's streak"
+        src="https://github-readme-streak-stats.herokuapp.com/?user=Arun89-crypto&theme=black-ice&hide_border=true&stroke=0000&background=060A0CD0"
+        className="github__status"
+      />
       <div className="github__banner normal__font display__flex">
         <svg
           xmlns="http://www.w3.org/2000/svg"

@@ -85,7 +85,11 @@
 .github__banner__content a:hover {
   text-decoration: underline;
 }
-
+.github__status {
+  margin: 2.5%;
+  width: 95%;
+  max-width: 500px;
+}
 @media screen and (max-width: 1023px) {
   .projects__content {
     grid-template-columns: repeat(2, 0fr);
