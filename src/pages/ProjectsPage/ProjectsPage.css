@@ -85,10 +85,13 @@
 .github__banner__content a:hover {
   text-decoration: underline;
 }
+.github__status__cont {
+  width: 100%;
+  padding: 2.5%;
+}
 .github__status {
-  margin: 2.5%;
-  width: 95%;
   max-width: 500px;
+  width: 100%;
 }
 @media screen and (max-width: 1023px) {
   .projects__content {
