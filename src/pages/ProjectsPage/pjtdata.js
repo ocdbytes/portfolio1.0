@@ -1,5 +1,21 @@
 const pjtdata = [
     {
+        id: "pjt_data_11",
+        name: "PayZu",
+        team: false,
+        description: "A Web application for payment using ethereum and records your transactions.",
+        tech: [
+            "https://drive.google.com/uc?id=12S-0Mw4PXzixecyWekaiqObLmfRzbiBT",
+            "https://drive.google.com/uc?id=115uxyWPyT2CeWnMvdwN660haE3ZkCFZQ",
+            "https://drive.google.com/uc?id=1supycGthhKXnnMd_L1B1M9x6OgGEU9Gj",
+            "https://drive.google.com/uc?id=1wQnOf9XPxbRf7ODe6kj2sJiH3ysqyP4P",
+            "https://drive.google.com/uc?id=1sdapnf4uPF0XttMuyXDnrRSSUzyH4xAm",
+            'https://drive.google.com/uc?id=18gvcd-BIUZnXWoWTRRDa9g59potCxOR9'
+        ],
+        icon: "https://drive.google.com/uc?id=1sdapnf4uPF0XttMuyXDnrRSSUzyH4xAm",
+        github: "https://github.com/Arun89-crypto/PayZu-Web3"
+    },
+    {
         id: "pjt_data_10",
         name: "Fund Me - Solidity - Brownie deployment",
         team: false,

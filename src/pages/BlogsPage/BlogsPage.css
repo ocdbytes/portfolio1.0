@@ -30,6 +30,11 @@
   width: 100%;
   object-fit: cover;
 }
+.medium__link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
 @media screen and (max-width: 670px) {
   .blogs__data__card {
     flex-direction: column;

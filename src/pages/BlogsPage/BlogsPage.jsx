@@ -25,8 +25,20 @@ const BlogsPage = () => {
               </div>
               <div className="blogs__card__details">
                 <h3>{data.name}</h3>
-                <a href={data.link} target={"_blank"} rel="noreferrer">
-                  {data.link}
+                <a
+                  href={data.link}
+                  target={"_blank"}
+                  rel="noreferrer"
+                  className="medium__link"
+                  style={{ marginTop: "20px", textDecoration: "none" }}
+                >
+                  <img
+                    src="https://drive.google.com/uc?id=1koRi40dxEhwq5t7gHOkw8ylss2hHNUzo"
+                    alt="medium"
+                    width={"30px"}
+                    style={{ marginRight: "10px" }}
+                  ></img>
+                  <p>Link {"->"}</p>
                 </a>
               </div>
             </div>
