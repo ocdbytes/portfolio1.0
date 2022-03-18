@@ -47,6 +47,21 @@ const ExperiencePage = () => {
         </div>
         <div className="experience__card">
           <h2 className="pixel__font">
+            <span className="color__nb">Web</span> Developer - Zapezzy
+          </h2>
+          <div className="experience__card__main normal__font display__flex">
+            <div className="display__flex org__logo">
+              <h3>Zapezzy</h3>
+            </div>
+            <div className="experience__content">
+              <p>2022 - Present</p>
+              <h3>Full Stack Web Developer</h3>
+              <p>Intern</p>
+            </div>
+          </div>
+        </div>
+        <div className="experience__card">
+          <h2 className="pixel__font">
             <span className="color__nb">Cyber</span> Security
           </h2>
           <div className="experience__card__main normal__font" id="thm">
