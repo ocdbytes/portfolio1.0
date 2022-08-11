@@ -88,12 +88,12 @@ const SideNavbar = ({ showNav, setNav }) => {
         Blogs
       </Link>
       <Link
-        to="/achievements"
+        to="/ctf"
         className="side__navbar__link"
         style={{ textDecoration: "none" }}
         onClick={() => setNav(!showNav)}
       >
-        Achievments
+        CTF's
       </Link>
     </div>
   );
