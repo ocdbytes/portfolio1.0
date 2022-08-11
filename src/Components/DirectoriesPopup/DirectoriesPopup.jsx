@@ -46,11 +46,8 @@ const DirectoriesPopup = () => {
         <Link to="/blogs" style={{ textDecoration: "none", color: "#fff" }}>
           <h2 className="dir__tags">Blogs</h2>
         </Link>
-        <Link
-          to="/achievements"
-          style={{ textDecoration: "none", color: "#fff" }}
-        >
-          <h2 className="dir__tags">Achievements</h2>
+        <Link to="/ctf" style={{ textDecoration: "none", color: "#fff" }}>
+          <h2 className="dir__tags">CTFs</h2>
         </Link>
       </div>
     </div>

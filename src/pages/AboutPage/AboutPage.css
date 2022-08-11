@@ -3,6 +3,10 @@
   min-height: 88vh;
   /* max-height: 88vh; */
 }
+.about__page__header{
+    font-size: 15px;
+    color: #fff;
+}
 .page__header {
   margin-bottom: 10px;
 }
@@ -17,43 +21,51 @@
 .card__about {
   margin-top: 5%;
 }
-.card__images {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  margin: 3% 0;
-  flex-wrap: wrap;
-}
-.skills__icon {
-  margin: 10px;
-  height: 28px;
-}
 .card__tile {
   width: 100%;
+  margin: 5px 0;
+  font-size: 20px;
 }
 .card__content {
-  font-family: "Inter", sans-serif;
+    width: 100%;
+    margin: 2.5% 0;
+    font-size: 15px;
 }
+.techs__about__card{
+ padding: 2.5%;
+}
+.techs__about__card li{
+    font-size: 15px;
+}
+.profiles{
+padding: 2.5%;
+}
+.profile__card__cs{
+justify-content: flex-start;
+margin-top: 2.5%;
+text-decoration: none;
+color: #fff;
+font-size: 15px;
+}
+.profile__card__cs img{
+    margin-right: 10px;
+    width: 30px;
+}
+
+
 @media screen and (max-width: 425px) {
   .skills__icon {
     margin: 10px;
     height: 25px;
   }
 }
-.languages__section {
-  margin-top: 25px;
-  color: #fff;
-}
-.languages__section ul {
-  list-style: none;
-}
 .social__links {
   display: flex;
   flex-wrap: wrap;
 }
 .social {
-  margin-right: 10px;
-  margin-top: 20px;
+  margin-right: 20px;
+  margin-top: 25px;
 }
 .social img {
   width: 25px;

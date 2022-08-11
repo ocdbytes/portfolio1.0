@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import DirectoriesPopup from './Components/DirectoriesPopup/DirectoriesPopup';
 import Navbar from './Components/Navbar/Navbar';
 import AboutPage from './pages/AboutPage/AboutPage';
-import AchievementsPage from './pages/AchievementsPage/AchievementsPage';
+import CTFPage from './pages/AchievementsPage/CTFPage';
 import BlogsPage from './pages/BlogsPage/BlogsPage';
 import ExperiencePage from './pages/ExperiencePage/ExperiencePage';
 import LandingPage from './pages/LandingPage/LandingPage';
@@ -21,7 +21,7 @@ function App() {
                     <Route exact path='/experience' element={<ExperiencePage />}></Route>
                     <Route exact path='/blogs' element={<BlogsPage />}></Route>
                     <Route exact path='/projects' element={<ProjectsPage />}></Route>
-                    <Route exact path='/achievements' element={<AchievementsPage />}></Route>
+                    <Route exact path='/ctf' element={<CTFPage />}></Route>
                 </Routes>
             </Router>
         </>

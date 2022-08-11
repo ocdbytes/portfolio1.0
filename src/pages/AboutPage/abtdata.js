@@ -1,76 +1,37 @@
 const abtdata = [
     {
-        id: "id_abt_1",
-        title: "<span className='color__nb'>Web</span> Developer",
-        content: "I have 1 + year of experience as a web developer and i have been developing projects and using my skills in various hackathons and club projects and of course freelancing.",
+        title: "<span className='color__nb'>Cyber</span> Security",
+        content: "I am a practising cyber security and doing research in malware analysis. I participate in CTF’s (you can check them in CTF section of the website). I have also made some basic Scripts using Python. I write writeups for community showing them my approach to solve the boxes on HTB and TryHackMe.",
         technologies: [
-            "https://drive.google.com/uc?id=12S-0Mw4PXzixecyWekaiqObLmfRzbiBT",
-            "https://drive.google.com/uc?id=115uxyWPyT2CeWnMvdwN660haE3ZkCFZQ",
-            "https://drive.google.com/uc?id=1supycGthhKXnnMd_L1B1M9x6OgGEU9Gj",
-            "https://drive.google.com/uc?id=1wQnOf9XPxbRf7ODe6kj2sJiH3ysqyP4P",
-            "https://drive.google.com/uc?id=1D7IIqJGT1GWJAobjFpYIGpq-tbDM-6os",
-            "https://drive.google.com/uc?id=1R_60WxYbC5WKtGpWNGmCKKFj8B3o7Qa0",
-            "https://drive.google.com/uc?id=1EAuvMrBd9JraEZVvC3lZt8Z1364lbWvq",
-            "https://drive.google.com/uc?id=1MyvhBx5I8cQIxcF4xC-buAkrhg8Ta1uL",
-            "https://drive.google.com/uc?id=1bLgbAmmETvLtRcXpbF7Fn6XbrlHe6pXu",
-            "https://drive.google.com/uc?id=1NlSVR7301LEeDLOqtwLeeJaXbqudOcNa",
-            "https://drive.google.com/uc?id=1UHLW7vCZPXHfxkcBPAzPosSTwd7c4mol"
+            "Python", "HackTheBox", "TryHackMe", "Web Exploitation", "Binary Exploitation", "Red Teaming", "Network Pentesting"
+        ],
+        profile_links: [
+            {
+                platform: "HackTheBox ->",
+                link: "",
+                icon: "https://drive.google.com/uc?id=1ir1Jbg0W6WJMEs1gTaXUeTGVwEa-QK2K"
+            },
+            {
+                platform: "TryHackMe ->",
+                link: "",
+                icon: "https://drive.google.com/uc?id=1NRQyr6XPIIyf5CphfeD4l-zPoj_rf9U3"
+            }
         ]
     },
     {
-        id: "id_abt_2",
-        title: "<span className='color__nb'>Web</span> Designer",
-        content: "I have 1 + year of experience as a web designer, I have also freelanced in designing domain and learned some basic UI/UX Fundamentals.",
+        title: "<span className='color__nb'>Web</span> Stack",
+        content: "I have 1 + year of experience as a web developer and i have been developing projects and using my skills in various hackathons and club projects and freelancing.",
         technologies: [
-            "https://drive.google.com/uc?id=1KHD5VSOFwXFaU7HDgNKrsqmhUOW4ufKb",
-            "https://drive.google.com/uc?id=1Onyg6qwnC20u_WITB7H8JCFikD6Vis8t"
+            "MERN", "GCP", "AWS", "Heroku", "Firebase", "Heroku", "TypeScript"
         ]
     },
     {
-        id: "id_abt_3",
-        title: "Programmer",
-        content: "I also do scripting with python (eg. web scraper) and solve gfg problems in order to keep practicing data structure and algorithms side by side.",
+        title: "<span className='color__nb'>Blockchain</span>",
+        content: "I am learning blockchain and the tech stacks used in it. I integrate the web or CLI with my solidity contracts. Learning Truffle and Hardhat is fun :)",
         technologies: [
-            "https://drive.google.com/uc?id=1dc5AAdEX-4luAt8lBv1zjgZQmhwDB7DF",
-            "https://drive.google.com/uc?id=1c2kNK4bqUtpX_uoinpFoSNPiZvYXG5E2",
-            "https://drive.google.com/uc?id=1pSIIJjUdhkAJQ_40Q6pUCwlDdqr_vS3J"
+            "Python", "MERN", "Hardhat", "Truffle", "Ganache", "Solidity"
         ]
     },
-    {
-        id: "id_abt_4",
-        title: "<span className='color__nb'>Cyber</span> Security <span className='color__nb'>&</span> Blockchain",
-        content: "I have a decent amount of interest in Cyber Security and Blockchain. I practise cyber security on HTB, VulnHub and TryHackMe. When it comes to blockchain so i am learning solidity and learning about making contracts and implimenting in my projects",
-        technologies: [
-            "https://drive.google.com/uc?id=1DYaNmh51tf59E45KDEVQ8_MbZzZI6Bjv",
-            "https://drive.google.com/uc?id=1sdapnf4uPF0XttMuyXDnrRSSUzyH4xAm",
-            "https://drive.google.com/uc?id=1ir1Jbg0W6WJMEs1gTaXUeTGVwEa-QK2K",
-            "https://drive.google.com/uc?id=17FmHVp_5Ye3JdvagrqMNMpi_sCwA-2Zq",
-            "https://drive.google.com/uc?id=1NRQyr6XPIIyf5CphfeD4l-zPoj_rf9U3"
-        ]
-    }
+
 ]
 export default abtdata
-
-// vulnhub = https://drive.google.com/uc?id=17FmHVp_5Ye3JdvagrqMNMpi_sCwA-2Zq
-// tryhackme = https://drive.google.com/uc?id=1NRQyr6XPIIyf5CphfeD4l-zPoj_rf9U3
-// solidity = https://drive.google.com/uc?id=1sdapnf4uPF0XttMuyXDnrRSSUzyH4xAm
-// react = https://drive.google.com/uc?id=1supycGthhKXnnMd_L1B1M9x6OgGEU9Gj
-// python = https://drive.google.com/uc?id=1pSIIJjUdhkAJQ_40Q6pUCwlDdqr_vS3J
-// nodejs = https://drive.google.com/uc?id=12S-0Mw4PXzixecyWekaiqObLmfRzbiBT
-// mongodb = https://drive.google.com/uc?id=1wQnOf9XPxbRf7ODe6kj2sJiH3ysqyP4P
-// javascript = https://drive.google.com/uc?id=1R_60WxYbC5WKtGpWNGmCKKFj8B3o7Qa0
-// html = https://drive.google.com/uc?id=1MyvhBx5I8cQIxcF4xC-buAkrhg8Ta1uL
-// hackthebox = https://drive.google.com/uc?id=1ir1Jbg0W6WJMEs1gTaXUeTGVwEa-QK2K
-// firebase = https://drive.google.com/uc?id=1NlSVR7301LEeDLOqtwLeeJaXbqudOcNa
-// figma = https://drive.google.com/uc?id=1KHD5VSOFwXFaU7HDgNKrsqmhUOW4ufKb
-// express = https://drive.google.com/uc?id=115uxyWPyT2CeWnMvdwN660haE3ZkCFZQ
-// css = https://drive.google.com/uc?id=1EAuvMrBd9JraEZVvC3lZt8Z1364lbWvq
-// cpp = https://drive.google.com/uc?id=1c2kNK4bqUtpX_uoinpFoSNPiZvYXG5E2
-// c = https://drive.google.com/uc?id=1dc5AAdEX-4luAt8lBv1zjgZQmhwDB7DF
-// bootstrap = https://drive.google.com/uc?id=1bLgbAmmETvLtRcXpbF7Fn6XbrlHe6pXu
-// bash = https://drive.google.com/uc?id=1DYaNmh51tf59E45KDEVQ8_MbZzZI6Bjv
-// illustrator = https://drive.google.com/uc?id=1Onyg6qwnC20u_WITB7H8JCFikD6Vis8t
-// redux = https://drive.google.com/uc?id=1D7IIqJGT1GWJAobjFpYIGpq-tbDM-6os
-// heroku = https://drive.google.com/uc?id=1UHLW7vCZPXHfxkcBPAzPosSTwd7c4mol
-// dsc = https://drive.google.com/uc?id=14ghH2_R8Oimt34ivB-pZcSYQXlJAB9d3
-// ccsc = https://drive.google.com/uc?id=134JhlGtwGwtY8DENfVbqq6a5BgWqfUe_

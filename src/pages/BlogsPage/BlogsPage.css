@@ -7,44 +7,21 @@
 }
 .blogs__content {
   color: #fff;
-}
-.blogs__data__card {
-  width: 100%;
-  max-width: 600px;
-  border: 1px solid rgb(148, 148, 148);
-  margin-top: 10px;
-}
-.blogs__card__details {
-  width: 60%;
-  padding: 5%;
-}
-.blogs__card__details a {
-  color: #fff;
-  font-size: 13px;
-}
-.blogs__card__image__sec {
-  width: 40%;
-}
-.blogs__cd__image {
-  min-height: 150px;
-  width: 100%;
-  object-fit: cover;
-}
-.medium__link {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
   align-items: center;
-  justify-content: flex-start;
+  align-self: center;
+  justify-content: center;
+  min-width: 90%;
+
 }
-@media screen and (max-width: 670px) {
-  .blogs__data__card {
-    flex-direction: column;
-    width: 80%;
-  }
-  .blogs__card__image__sec,
-  .blogs__card__details {
-    width: 100%;
-  }
-  .blogs__card__details a {
-    font-size: 10px;
-  }
+@media screen and (max-width: 1000px) {
+    .blogs__content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 660px) {
+    .blogs__content {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

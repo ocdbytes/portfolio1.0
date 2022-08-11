@@ -1,0 +1,9 @@
+.ctf__main {
+  background: #222831;
+  min-height: 88vh;
+  height: auto;
+}
+.ctf__content{
+    color: #fff;
+    flex-direction: column;
+}

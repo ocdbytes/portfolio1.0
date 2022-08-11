@@ -6,7 +6,7 @@ const CenterPicture = () => {
   const typingIntro = () => {
     // eslint-disable-next-line
     var typedIntro = new Typed("#intro", {
-      strings: ["  Hey!!👋 Myself Arun Jangra"],
+      strings: ["  Hey!! Arun Jangra here :)"],
       typeSpeed: 100,
       backSpeed: 0,
       loop: false,
@@ -15,7 +15,7 @@ const CenterPicture = () => {
     });
     // eslint-disable-next-line
     var typedSubIntro = new Typed("#subintro", {
-      strings: ["Click on any of the directories to know more ->"],
+      strings: ["Navigate using directories ->"],
       typeSpeed: 50,
       backSpeed: 0,
       loop: false,

@@ -22,16 +22,17 @@
   align-items: flex-start;
   justify-content: space-between;
   padding: 20px;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   color: #fff;
+  border-radius: 5px;
   position: relative;
 }
 .project__card__icon {
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
 }
 .project__disc {
-  font-size: 13px;
+  font-size: 12px;
   margin-top: 5px;
 }
 .git__link {
@@ -48,6 +49,8 @@
 }
 .project__head {
   margin-top: 10px;
+  font-size: 17px;
+  font-weight: bolder;
 }
 .team__tag {
   position: absolute;
@@ -60,38 +63,20 @@
   border-radius: 5px;
 }
 .project__tech {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 10px;
+    margin-top: 10px;
+    padding: 2.5%;
+    font-size: 12px;
+}
+.project__tech li{
+    margin-top: 2px;
 }
 .technology__logo {
   margin-right: 10px;
   margin-top: 10px;
+  height: 15px;
 }
-
-/*Github banner*/
-.github__banner {
-  width: 95%;
-  padding: 2.5%;
-  justify-content: space-between;
-}
-.github__banner__icon {
-  width: 100px;
-}
-.github__banner__content a {
-  text-decoration: none;
-  color: #fff;
-}
-.github__banner__content a:hover {
-  text-decoration: underline;
-}
-.github__status__cont {
-  width: 100%;
-  padding: 2.5%;
-}
-.github__status {
-  max-width: 500px;
-  width: 100%;
+.project__card__down img{
+    width: 25px;
 }
 @media screen and (max-width: 1023px) {
   .projects__content {
